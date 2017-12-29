@@ -2,7 +2,7 @@ module.exports = {
   srcDir: 'src/',
   loading: false,
   modules: [
-    '~/modules/lint',
+    '~/modules/eslint',
     '~/modules/offline'
   ],
   plugins: [
