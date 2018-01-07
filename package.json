@@ -3,7 +3,7 @@
   "author": "zhuweiyou <i@zhuweiyou.com> (https://zhuweiyou.com/)",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html -d static"
+    "build": "parcel build src/index.html --out-dir dist --public-url ./"
   },
   "devDependencies": {
     "parcel-bundler": "^1.4.1"
