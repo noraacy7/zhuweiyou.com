@@ -8,5 +8,4 @@
 ```
 
 [![Build Status](https://travis-ci.org/zhuweiyou/zhuweiyou.com.svg?branch=master)](https://travis-ci.org/zhuweiyou/zhuweiyou.com)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Greenkeeper badge](https://badges.greenkeeper.io/zhuweiyou/zhuweiyou.com.svg)](https://greenkeeper.io/)
