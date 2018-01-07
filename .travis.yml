@@ -12,7 +12,7 @@ script:
 
 after_success:
   - if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
-    \cp -rf public/* dist/
+    \cp -rf public/* dist;
     cd dist;
     git init;
     git config user.name 'zhuweiyou';
