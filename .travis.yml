@@ -12,7 +12,6 @@ script:
 
 after_success:
   - if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
-    \cp -rf public/* dist;
     cd dist;
     \cp -rf index.html 404.html;
     git init;
