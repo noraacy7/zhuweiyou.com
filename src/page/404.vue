@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="less" scoped>
   .wrap {
     height: 100%;
     display: flex;
