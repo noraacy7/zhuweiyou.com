@@ -1,4 +1,6 @@
 /*
   Cache-Control: max-age=315360000
+/
+  Cache-Control: max-age=600
 /sw.js
   Cache-Control: no-cache
