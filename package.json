@@ -2,15 +2,14 @@
   "name": "zhuweiyou.com",
   "author": "zhuweiyou <i@zhuweiyou.com> (https://zhuweiyou.com/)",
   "scripts": {
-    "dev": "poi src/index.js",
-    "build": "poi build src/index.js"
+    "dev": "poi",
+    "build": "poi build"
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
-    "offline-plugin": "^4.9.0",
     "poi": "^9.6.10"
   },
   "dependencies": {
