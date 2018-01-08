@@ -1,4 +1,4 @@
-/*
+/assets/*
   Cache-Control: max-age=315360000
-/
-  Cache-Control: max-age=600
+/*.js
+  Cache-Control: max-age=315360000
