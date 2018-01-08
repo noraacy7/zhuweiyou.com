@@ -13,7 +13,6 @@ script:
 after_success:
   - if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
     cd dist;
-    \cp -rf index.html 404.html;
     git init;
     git config user.name 'Travis CI';
     git config user.email 'i@zhuweiyou.com';
