@@ -2,7 +2,7 @@
   "name": "zhuweiyou.com",
   "author": "zhuweiyou <i@zhuweiyou.com> (https://zhuweiyou.com/)",
   "scripts": {
-    "dev": "rm -rf .cache && parcel src/index.html",
+    "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html --out-dir dist --public-url ./"
   },
   "devDependencies": {
