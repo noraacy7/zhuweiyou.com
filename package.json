@@ -11,7 +11,8 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
     "offline-plugin": "^4.9.0",
-    "poi": "^9.6.10"
+    "poi": "^9.6.10",
+    "poi-preset-offline": "^9.0.3"
   },
   "dependencies": {
     "vue-router": "^3.0.1"
