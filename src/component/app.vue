@@ -1,5 +1,7 @@
 <template>
-  <router-view />
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <style lang="less">
@@ -11,7 +13,8 @@
   }
 
   html,
-  body {
+  body,
+  #app {
     height: 100%;
   }
 
